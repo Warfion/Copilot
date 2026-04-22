@@ -26,23 +26,27 @@ at least one of these criteria:
 ### STEP 2 — THEME ANALYSIS REPORT
 Analyze all collected emails and produce a structured theme analysis report.
 Apply the following rules:
+
 SCOPE:
 - Ignore spam and one-off informational alerts unless they are high-volume
 (5+ instances in 30 days)
 - Prioritize themes that directly influence my time, attention, decision-making, or accountability
 - Look for patterns across senders, not just individual messages
+
 PROCESS:
 1. Group emails into thematic clusters by topic, sender pattern, urgency,
 and intent
 2. Rank themes by significance (volume × urgency × impact)
 3. Analyze what each theme signals about my role, expectations placed on me,
 or emerging risks and opportunities
+
 OUTPUT FORMAT — one section per theme containing:
 - Theme title
 - What I'm seeing (specific examples, frequency, named senders where relevant)
 - Why this theme exists (role, org context, seasonal/fiscal factors)
 - How this theme impacts me (time, stress, risk, opportunity, visibility)
 - Suggested action: maintain / reduce / delegate / automate / investigate
+
 QUALITY CHECKS:
 - State assumptions if inbox data is incomplete
 - Ensure each theme is distinct — if themes overlap, explain the relationship
@@ -53,6 +57,7 @@ QUALITY CHECKS:
 Based on the themes identified in Step 2, generate a structured report of
 recommended Outlook email rules designed to route low-signal traffic out of
 my primary inbox so I stay focused on core work.
+
 REPORT STRUCTURE:
 1. Recommended folder structure (folder name, purpose, review cadence)
 2. Rules grouped by folder/purpose, each containing:
@@ -72,6 +77,7 @@ company news, priority flags)
 ## STEP 4 — PHASE IMPLEMENTATION (Repeat for Each Phase)
 For each phase, execute the following sequence. Complete one phase fully
 before starting the next.
+
 4A — PLAN:
 Present the plan for this phase clearly:
 - Which folders to create (name, purpose)
@@ -79,7 +85,8 @@ Present the plan for this phase clearly:
 - Each rule's full logic (conditions, action, exceptions, stop processing)
 - Estimated monthly email volume removed from inbox
 - What will naturally remain in the inbox without additional rules
-Pause here and ask: "Ready to implement Phase [N]?"
+Pause here and ask: "Ready to implement Phase [Y]es or [N]o?"
+
 4B — IMPLEMENT:
 On confirmation, execute in this order:
 1. Create all folders for this phase in parallel
