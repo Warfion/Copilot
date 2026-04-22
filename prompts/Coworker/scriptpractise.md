@@ -1,5 +1,5 @@
 # Practice Builder
-##Purpose##
+##Purpose
 
 
 Build a lightweight, local-only web app to rehearse a presentation script for **<EVENT_NAME>**.
