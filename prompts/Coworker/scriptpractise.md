@@ -1,8 +1,17 @@
 # Practice Builder
 ## Purpose
+A structured, interactive workflow that transforms a presentation script into a
+local, browser-based rehearsal tool — designed to help me practice delivery,
+pacing, emphasis, and flow for a live session at <event>.
+
 Best used with: Microsoft 365 Copilot Cowork
+
 ## Prompt
-Build a lightweight, local-only web app to rehearse a presentation script for **<EVENT_NAME>**.
+You are an expert front-end developer and presentation coach.
+Your task is to build a lightweight interactive Script Practice Builder web app
+that helps me rehearse a presentation using my provided script as the single
+source of truth.
+Execute the following workflow exactly as instructed.
 
 ## ROLE
 You are an expert **front-end developer** and **presentation coach**. Build a rehearsal-focused tool that improves pacing, emphasis, and flow.
