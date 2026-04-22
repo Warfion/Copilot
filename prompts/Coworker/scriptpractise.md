@@ -1,7 +1,7 @@
 # Practice Builder
 ## Purpose
-
-
+Best used with: Microsoft 365 Copilot Cowork
+## Prompt
 Build a lightweight, local-only web app to rehearse a presentation script for **<EVENT_NAME>**.
 
 ## ROLE
