@@ -12,3 +12,4 @@ Browse the `prompts/` folder to find ready-to-use prompts organized by agent.
 | Copilot Cowork | [Postmaster](prompts/Coworker/postmaster.md) | Scans your inbox, identifies workload themes, and recommends email rules to reduce noise |
 | Copilot Cowork | [Script Practice Builder](prompts/Coworker/scriptpractise.md) | Turns a presentation script into a browser-based rehearsal app with 5 practice modes |
 | Copilot Cowork | [OneDrive Organizer](prompts/Coworker/onedrive_organizer.md) | Scans your entire OneDrive, produces an interactive HTML dashboard, inventory table, and reorganization plan |
+| Copilot Cowork | [Weekly Status Report](prompts/Coworker/weekly_status_report.md) | Generates a fact-based weekly status report from your Outlook, Teams, and Calendar activity |
