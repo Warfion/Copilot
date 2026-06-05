@@ -14,3 +14,5 @@ Browse the `prompts/` folder to find ready-to-use prompts organized by agent.
 | Copilot Cowork | [OneDrive Organizer](prompts/Coworker/onedrive_organizer.md) | Scans your entire OneDrive, produces an interactive HTML dashboard, inventory table, and reorganization plan |
 | Copilot Cowork | [Weekly Status Report](prompts/Coworker/weekly_status_report.md) | Generates a fact-based weekly status report from your Outlook, Teams, and Calendar activity |
 | Copilot Cowork | [Focus Time Planner](prompts/Coworker/focus_time_planner.md) | Analyzes your calendar and proposes optimal focus-time blocks across upcoming weeks — no changes until you approve |
+| Copilot Cowork | [Capacity Report](prompts/Coworker/capacity_report.md) | Reviews two upcoming work weeks, classifies meetings by category, and drafts an HTML capacity summary email |
+| Any LLM | [Prompt Techniques Toolkit](prompts/VSCode/prompt_techniques.md) | Four reusable prompt strategies — Guided Q&A, Pros & Cons, Stepwise Chain of Thought, and Role-Based Teaching |
