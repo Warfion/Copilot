@@ -1,0 +1,9 @@
+{
+  "attachmentFolderUrl": "https://example.sharepoint.com/REPLACE_WITH_APPROVED_FOLDER",
+  "signature": {
+    "name": "REPLACE_WITH_YOUR_NAME",
+    "role": "REPLACE_WITH_YOUR_ROLE",
+    "phone": "REPLACE_WITH_YOUR_PHONE",
+    "email": "REPLACE_WITH_YOUR_EMAIL"
+  }
+}
