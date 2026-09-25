@@ -46,7 +46,9 @@ git rev-parse --abbrev-ref HEAD      # current branch
 git status --short                    # changed/untracked files
 git diff --stat                       # scope of unstaged changes
 ```
-If there are no changes to commit, tell the user and stop.
+If there are no tracked, staged, or untracked changes to commit, tell the user and stop.
+If files are already staged from a prior session, show them and ask the user whether to
+include them, reset them, or abort before proceeding.
 
 ### 2. Protected-branch check
 If the branch is `main` or `master`, warn:

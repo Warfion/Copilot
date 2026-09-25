@@ -1,6 +1,7 @@
 {
     "chat.agentSkillsLocations": {
-        "./skills": true
+        "./skills": true,
+        "./skills/private": true
     },
     "python.analysis.extraPaths": [
         "c:\\Users\\thomasbrndl\\.vscode\\extensions\\ms-security.ms-sentinel-2.1.0\\python",

@@ -20,28 +20,22 @@ Browse the `prompts/` folder for ready-to-use prompts organized by agent.
 
 ## Skills
 
-Each skill lives in its own folder under `skills/` with its supporting files.
+Each skill lives in its own folder under `skills/` as a self-contained `SKILL.md`.
+Skill-specific workflow, safeguards, and usage examples are kept in that file
+rather than in separate skill READMEs or supporting folders.
 
 | Skill | Description |
 | --- | --- |
-| [Outlook Email Draft](skills/outlook-email-draft/README.md) | Uses Microsoft 365 Mail MCP to save reviewed emails as Outlook drafts; never sends |
+| [Outlook Email Draft](skills/outlook-email-draft/SKILL.md) | Uses Agency-provided Microsoft 365 Mail MCP to save reviewed emails as Outlook drafts; never sends |
 | [Git Commit and Push](skills/git-commit-push/SKILL.md) | Stages, commits, and pushes changes with confirmation and repository safety checks |
 
 The workspace configures `skills/` for VS Code Local agent discovery. Other agent
 hosts may require installation in a standard project or personal skill location.
 See each skill's documentation for setup.
 
-Outlook Email Draft requires a configured, authenticated Microsoft 365 Mail MCP
-connection exposing `CreateDraftMessage`. No local server, build, or Node.js
-installation is needed to use it. Node.js is needed only to run its optional
-document regression tests, from `skills/outlook-email-draft/`.
-
-The [MCP setup guide](skills/outlook-email-draft/README.md#register-the-mcp-connection-in-vs-code)
-includes the HTTP configuration, tenant placeholder, sign-in steps, and tool checks.
-
 ## Language
 
 Project documentation, instructions, and code are maintained in English. Outlook
 Email Draft supports German and English emails independently of the project's
-language. German email samples are intentional; their surrounding documentation
-is in English.
+language. An explicit requested email language takes precedence over the source
+language; otherwise the email follows the language of the user's request.
